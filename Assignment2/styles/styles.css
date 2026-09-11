@@ -1,5 +1,12 @@
-body {
+body{
 background-color: lightyellow;
+
+}
+
+li{
+    list-style-type: none;
+  display: inline-block;
+  font-family: Georgia, serif;
 
 }
 
