@@ -1,0 +1,172 @@
+/*fonts */
+
+.unica-one-regular {
+  font-family: "Unica One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.sono-body{
+  font-family: "Sono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:
+    "MONO" 1;
+}
+
+
+/*REST OF EVERYTHING*/
+
+body{
+background-color: lightyellow;
+
+}
+
+header{
+    font-family: "Unica One", sans-serif;
+    text-align: center;
+    color: indigo;
+}
+
+
+Nav{
+    font-family:  "Sono", monospace;
+    text-align: center;
+}
+
+footer{
+    font-family:  "Sono", monospace;
+    font-size: 15;
+    text-align: center;
+    color: indigo;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: Georgia, serif;
+
+}
+
+img{
+    max-width: 45%;
+    height: auto;
+}
+
+
+hr.dotted{
+    width: 75%;
+    border-top: 1px dotted;
+    border-color:lightyellow;
+    border-bottom-style: hidden;
+}
+
+hr.rounded{
+    width: 75%;
+    border-top: 5px solid #bbb;
+    border-radius:5px;
+    border-color:darkcyan;
+}
+
+h3{
+    color: indigo;
+    Margin-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+a {
+  color: hotpink;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkmagenta;
+  text-decoration: none;
+}
+
+.font-test{
+    font-family: "Unica One", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.comics{
+    display: grid;
+    place-items: center;    
+
+    max-width: 75%;
+    height: auto;
+    padding-bottom: 35px;
+    margin: 1%;
+    font-family: "Unica One", sans-serif;
+
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius:15px;
+    border-style: groove;
+    border-color: darkmagenta;
+    background-color: indigo;
+    color:beige;
+
+
+
+}
+
+.comics img {
+ max-width: 40%;
+ margin: auto;
+}
+
+
+.needs-borders {
+    max-width:75%;
+        margin-left: 150px;
+    margin-right: 150px;
+    border-radius:15px;
+    border-style: groove;
+    border-color: darkmagenta;
+    background-color: indigo;
+    color:lightcyan;
+}
+
+
+
+
+p{
+    font-family: "Sono", monospace;
+    font-size: 15px;
+    padding:12px;
+    margin-inline-end: 25px;
+
+}
+
+blockquote {
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    max-width: 75%;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: indigo;
+    color: lightcyan;
+    padding-top: 3%;
+}
+
+cite {
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    display: block;
+    max-width: 75%;
+    text-align: center;
+    font-size: 15px;
+    color: gold;
+    background-color: indigo;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
