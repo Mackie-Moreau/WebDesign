@@ -3,10 +3,31 @@
 This landing page serves a hub for all of the comics I've made. Learn more about the whys and hows of comic making, from indivdual stories to multi-chapter graphic novels. A directory and blurb is provided for each comic. 
 
 
-ASSIGNMENT 3 README QUESTIONS:
+Assignment 4 - README Questions
 
-How did using components and classes affect the way you organized your webpage?
-    Using classes helped me shuffle and organize the border styles that I wanted to use to seperate the backgrounds of my individual sections. Eventually this will let me add different background images that will help me further seperate the sections. Reusable components helped me create a simple comic card to show the different comics I've made. 
-Is there anything from this week's HTML or CSS that you'd like more clarification on and/or more practice with?
-    I'd like a little more practice with images and using images as backgrounds as I haven't done that since my first year of college. 
+Visual Appeal
+
+    Which icons did you ultimately use and for what purposes?
+    Which consistent colors, values, lines, and/or shapes did you utilize and why?
+    Which Google Fonts did you use and for what purposes?
+
+Structure & Organization
+
+    What information does your table organize, and why was a table appropriate?
+    What specific style choices helped you structure and organize your form?
+
+Design Goals
+
+    What is the goal of your form, and how did it support your site's goals?
+    How does the gallery support your website's goals?
+    Did you use display: flex or grid to construct your gallery?
+    What pattern did you use: uniform, alternating, or something else, and why?
+
+Checking In
+
+   Briefly let me know how you're doing so far with (a few words or so is completely fine):
+      Learning about and applying design principles:
+      Using typography in your designs:
+      Creating components (like navs, cards, galleries, forms, buttons, and tables):
+      Exploring display: flex and grid:
 

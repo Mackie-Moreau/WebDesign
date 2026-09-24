@@ -19,16 +19,40 @@
 /*REST OF EVERYTHING*/
 
 body{
-background-color: lightyellow;
+    background-color: #8089b6;
 
+}
+
+div.main-bg{
+    background-color: #fff1d5;
+    max-width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 header{
-    font-family: "Unica One", sans-serif;
+    padding-top: 5px;
     text-align: center;
-    color: indigo;
+    color: #4330a7;
 }
 
+h1{
+    
+  font-family: "Unica One", sans-serif;
+}
+
+h2{
+  font-family: "Unica One", sans-serif;
+  text-align: center;
+}
+
+h3{
+    
+    color: #4330a7;
+    Margin-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
 
 Nav{
     font-family:  "Sono", monospace;
@@ -39,7 +63,7 @@ footer{
     font-family:  "Sono", monospace;
     font-size: 15;
     text-align: center;
-    color: indigo;
+    color: #4330a7;
 }
 
 li{
@@ -50,7 +74,7 @@ li{
 }
 
 img{
-    max-width: 45%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -58,32 +82,26 @@ img{
 hr.dotted{
     width: 75%;
     border-top: 1px dotted;
-    border-color:lightyellow;
+    border-color:#fff1d5;
     border-bottom-style: hidden;
 }
 
 hr.rounded{
-    width: 75%;
+    width: 85%;
     border-top: 5px solid #bbb;
     border-radius:5px;
-    border-color:darkcyan;
+    border-color:#4330a7;
 }
 
-h3{
-    color: indigo;
-    Margin-top: 5px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
 
 
 a {
-  color: hotpink;
+  color: #6780fb;
   text-decoration: none;
 }
 
 a:hover {
-  color: darkmagenta;
+  color: #4d54de;
   text-decoration: none;
 }
 
@@ -97,19 +115,16 @@ a:hover {
     display: grid;
     place-items: center;    
 
-    max-width: 75%;
     height: auto;
     padding-bottom: 35px;
     margin: 1%;
-    font-family: "Unica One", sans-serif;
 
-    margin-left: 150px;
-    margin-right: 150px;
+
+    margin-left: 75px;
+    margin-right: 75px;
     border-radius:15px;
-    border-style: groove;
-    border-color: darkmagenta;
-    background-color: indigo;
-    color:beige;
+    background-color:#ff7e91;
+    color: #4330a7;
 
 
 
@@ -122,20 +137,19 @@ a:hover {
 
 
 .needs-borders {
-    max-width:75%;
-        margin-left: 150px;
-    margin-right: 150px;
+  
+    margin-left: 75px;
+    margin-right: 75px;
     border-radius:15px;
-    border-style: groove;
-    border-color: darkmagenta;
-    background-color: indigo;
-    color:lightcyan;
+    background-color: #fec45d;
+    color: #4330a7;
 }
 
 
 
 
 p{
+    text-align:center;
     font-family: "Sono", monospace;
     font-size: 15px;
     padding:12px;
@@ -145,28 +159,128 @@ p{
 
 blockquote {
     
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 75px;
+    margin-right: 75px;
     text-align: center;
-    max-width: 75%;
     margin-top: 15px;
     font-weight: bold;
     font-size: 20px;
-    background-color: indigo;
-    color: lightcyan;
+    color: #4330a7;
     padding-top: 3%;
 }
 
 cite {
     
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 75px;
+    margin-right: 75px;
     display: block;
     max-width: 75%;
     text-align: center;
     font-size: 15px;
-    color: gold;
-    background-color: indigo;
+    color: #4330a7;
     padding-top: 0%;
     padding-bottom: 5%;
+}
+
+fieldset{
+    margin-left: 75px;
+    margin-right: 75px;
+    border: none;
+    padding: 0;
+    background-color: #fec45d;
+    color: #4330a7;
+}
+
+
+legend {
+
+  font-family: "Unica One", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+ label{
+  display: block; 
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+    .Newsletter input[type="text"],
+    .Newsletter input[type="email"],
+    .Newsletter select {
+        width: 50%;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #efdc7d;
+        border-radius: 15px;
+        box-sizing: border-box;
+        background-color: #fff1d5;
+    }
+.Newsletter{
+     font-family: "Sono", monospace;
+    padding-bottom:20px;
+    color: #ff5073;
+}
+
+.Newsletter button {
+    margin-top: 20px;
+    background-color: #6780fb;
+    color: #fff1d5;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Newsletter button:hover {
+    background-color: #4d54de;
+}
+
+
+table {
+    font-family: "Sono", monospace;
+  position: relative;
+  left: 10px;
+  width: 78%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: #fff1d5;
+  border-radius: 15px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #fec45d;
+  text-align: left;
+}
+
+th {
+  color: #4330a7;
+
+}
+
+#txtbg{
+    background-color: #fff1d5;
+    border-radius:15px;
+    margin-top:10px;
+    width: 75%;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    row-gap: 10px; 
+    column-gap: 10px;
+}
+
+#gallery img {
+    width: calc(33.333% - 10px);
+    height: auto;
+    border-radius: 15px;
 }

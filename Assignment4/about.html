@@ -3,17 +3,24 @@
         <meta charset="UTF-8">
         <Title>About</Title>
         <link rel="stylesheet" href="styles/styles.css">
-        
+        <!------------------------FONTS--------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sono:wght,MONO@200..800,1&family=Unica+One&display=swap" rel="stylesheet">
     </head>
 
     <body>
-
-        <header>
+    <div class="main-bg">
+        <Header>
+            <div class="needs-borders">
             <h1>
-                MACINTOSH COMICS
-                <hr class="rounded">
+                <hr class="dotted">
+                macintosh comics
+                <hr class="dotted">
             </h1>
-        </header>
+            </div>
+            <hr class="rounded">
+        </Header>
 
         <nav>
             <h3>
@@ -35,15 +42,70 @@
             </p>
         </div>
 
+                
+        <div class="needs-borders">
+                <fieldset>
+                    <legend>Sign Up for the Newsletter:</legend>
+                    <form  class="Newsletter">
+                        <label>Your Name:</label>
+                        <input type="text" name="name" placeholder="e.g. Some Guy">
 
-        <footer>
-            <h2>
-                <hr class="rounded">
+                        <label>Newsletter type:</label>
+                        <!-- radio section label -->
+                        <label><input type="radio" name="format" value="weekly"> Weekly</label>
+                        <label><input type="radio" name="format" value="monthly"> Monthly</label>
+                        <label><input type="radio" name="format" value="both"> Both</label>
 
-                Banner goes here eventually
-            </h2>
-            <h3>Thanks for reading! ★ &copy 2026 Mackie Moreau, all rights reserved. AI use is strictly prohibited.  </h3>
+                        <label>Email:</label>
+                        <input type="text" name="email" placeholder="YourEmail@website.com">
+                        <button type="submit">Submit</button>
+                        
+                    </form>
+                </fieldset>
+             </div>
+
+             <div class="needs-borders">
+                
+      <hr class="dotted">
+
+        <h2>Comic and Artist Reccomendations</h2>
+
+        <table>
+            <tr>
+            <th>Artist</th>
+            <th>Style/Genre</th>
+            <th>Link</th>
+            </tr>
+        <tbody>
+        <tr>
+            <td>Petra Erika Nordlund</td>
+            <td>Tiger Tiger is an adventure comic with fantasy elements.</td>
+            <td><a href="https://tigertigercomic.com/">Read it here!</a></td>
+            </tr>
+            <tr>
+            <td>Keith Thompson</td>
+            <td>An illustrator with a focus on weird speculative fiction.</td>
+            <td><a href="https://www.keiththompsonart.com/index.html">Find his works here!</a></td>
+            </tr>
+        </tbody>
+        </table>
+        <hr class="dotted">
+        </div>
+
+
+         <footer>
+             <hr class="rounded">
+             <div class ="needs-borders">
+             <blockquote>
+                "Be strong enough to be gentle."
+            
+            </blockquote>
+
+            <cite>Optimus Prime/Peter Cullen</cite>
+            </div>
+
+        <h3><em>Thanks for reading!</em> ★ &copy 2026 Mackie Moreau, all rights reserved. AI use is strictly prohibited.  </h3>
         </footer>
-
+    </div>
     </body>
 </html>
