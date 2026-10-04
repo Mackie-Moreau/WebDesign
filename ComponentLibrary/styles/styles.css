@@ -1,0 +1,297 @@
+/*fonts */
+
+.unica-one-regular {
+  font-family: "Unica One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.sono-body{
+  font-family: "Sono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:
+    "MONO" 1;
+}
+
+
+/*REST OF EVERYTHING*/
+
+body{
+    background-color: #8089b6;
+
+}
+
+div.main-bg{
+    background-color: #fff1d5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+    padding-top: 5px;
+    text-align: center;
+    color: #4330a7;
+}
+
+h1{
+    
+  font-family: "Unica One", sans-serif;
+}
+
+h2{
+  font-family: "Unica One", sans-serif;
+  text-align: center;
+}
+
+h3{
+    
+    color: #4330a7;
+    Margin-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+Nav{
+    font-family:  "Sono", monospace;
+    text-align: center;
+}
+
+#nav-bar{
+     display: inline-block;
+}
+
+#nav-bar img{
+ width:50px;
+ height:auto;
+
+}
+
+footer{
+    font-family:  "Sono", monospace;
+    font-size: 15;
+    text-align: center;
+    color: #4330a7;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: Georgia, serif;
+
+}
+
+img{
+    max-width: 70%;
+    height: auto;
+}
+
+
+hr.dotted{
+    width: 75%;
+    border-top: 1px dotted;
+    border-color:#fff1d5;
+    border-bottom-style: hidden;
+}
+
+hr.rounded{
+    width: 85%;
+    border-top: 5px solid #bbb;
+    border-radius:5px;
+    border-color:#4330a7;
+}
+
+
+
+a {
+  color: #6780fb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4d54de;
+  text-decoration: none;
+}
+
+.font-test{
+    font-family: "Unica One", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.comics{
+    display: grid;
+    place-items: center;    
+
+    height: auto;
+    padding-bottom: 35px;
+    margin: 1%;
+
+
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius:15px;
+    background-color:#ff7e91;
+    color: #4330a7;
+
+
+
+}
+
+.comics img {
+ max-width: 40%;
+ margin: auto;
+}
+
+
+.needs-borders {
+  
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius:15px;
+    background-color: #fec45d;
+    color: #4330a7;
+}
+
+
+
+
+p{
+    text-align:center;
+    font-family: "Sono", monospace;
+    font-size: 15px;
+    padding:12px;
+    margin-inline-end: 25px;
+
+}
+
+blockquote {
+    
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #4330a7;
+    padding-top: 3%;
+}
+
+cite {
+    
+    margin-left: 75px;
+    margin-right: 75px;
+    display: block;
+    max-width: 75%;
+    text-align: center;
+    font-size: 15px;
+    color: #4330a7;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+fieldset{
+    margin-left: 75px;
+    margin-right: 75px;
+    border: none;
+    padding: 0;
+    background-color: #fec45d;
+    color: #4330a7;
+}
+
+
+legend {
+
+  font-family: "Unica One", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+ label{
+  display: block; 
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+    .Newsletter input[type="text"],
+    .Newsletter input[type="email"],
+    .Newsletter select {
+        width: 50%;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #efdc7d;
+        border-radius: 15px;
+        box-sizing: border-box;
+        background-color: #fff1d5;
+    }
+.Newsletter{
+     font-family: "Sono", monospace;
+    padding-bottom:20px;
+    color: #ff5073;
+}
+
+.Newsletter button {
+    margin-top: 20px;
+    background-color: #6780fb;
+    color: #fff1d5;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Newsletter button:hover {
+    background-color: #4d54de;
+}
+
+
+table {
+    font-family: "Sono", monospace;
+  position: relative;
+  left: 10px;
+  width: 78%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: #fff1d5;
+  border-radius: 15px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #fec45d;
+  text-align: left;
+}
+
+th {
+  color: #4330a7;
+
+}
+
+#txtbg{
+    background-color: #fff1d5;
+    border-radius:15px;
+    margin-top:10px;
+    width: 75%;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    row-gap: 10px; 
+    column-gap: 10px;
+}
+
+#gallery img {
+    width: calc(33.333% - 10px);
+    height: auto;
+    border-radius: 15px;
+}
