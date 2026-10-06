@@ -25,7 +25,7 @@ body{
 
 div.main-bg{
     background-color: #fff1d5;
-    max-width: 800px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 
@@ -51,8 +51,8 @@ h3{
     
     color: #4330a7;
     Margin-top: 5px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 Nav{
@@ -299,4 +299,25 @@ th {
     width: calc(33.333% - 10px);
     height: auto;
     border-radius: 15px;
+}
+
+.new-comics {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-left: 75;
+    gap: 10px;
+    }
+
+.new-comics img{
+    border-radius: 15px;
+}
+
+
+@media (max-width: 600px) {
+
+    h1 {font-size: 20;}
+    #nav-bar { width: 25px; height: auto; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 18px; }
+
 }
