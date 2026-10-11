@@ -19,8 +19,8 @@
 /*REST OF EVERYTHING*/
 
 body{
+    background-image: url("bg_web.png");
     background-color: #8089b6;
-
 }
 
 div.main-bg{
@@ -293,14 +293,15 @@ th {
 
 .new-comics {
     display: grid;
-    object-fit: cover;
     grid-template-columns: 20% 80%;
-    margin-left: 75;
-    gap: 10px;
+    margin: 5px;
+    margin-left: 75px;
+    column-gap: 10px;
+    row-gap: 10px;
     }
 
 .new-comics img{
-    max-width: 150%;
+    max-width: 125%;
     height: auto;
     border-radius: 15px;
 }
