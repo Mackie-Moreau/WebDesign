@@ -1,0 +1,58 @@
+<!-- METADATA & PAGE SETUP ------ Doc structure, SEO, viewport, favicon, external refs | Not a visible component -->
+<!-- HEADERS and NAVS-------------------- Site branding, logos, announcement bars and Navigation menus, links, dropdowns -->
+<!-- FOOTERS -------------------- Copyright, contact info, secondary navigation -->
+<!-- EXTRAS --------------------- Miscellaneous components, experiments --> 
+
+<!-- ------------------------------------------------ -->
+<!-- ------  METADATA & PAGE SETUP  ------ -->
+<!-- ------------------------------------------------ -->
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="A nonprofit organization dedicated to connecting Missoula's locals.">
+                <Title>TRAILHEAD</Title>
+                <link rel="stylesheet" href="styles/styles.css">
+        <!------------------------FONTS--------------------->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+        
+                <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+            </head>
+
+<!-- ------------------------------------------------ -->
+<!-- ------  Headers and Navs ------ -->
+<!-- ------------------------------------------------ -->
+        <header>
+            <h1>TRAILHEAD</h1>
+            <div class="head"><img src="images/point-icon.png"></div>
+
+                    <h3><a href="index.html">Home</a></h3>
+                    <h3><a href="calendar.html">Calendar</a></h3>
+                    <h3><a href="local.html">Locations</a></h3>
+                    <h3><a href="submit.html">Submissions</a></h3>
+
+        </header>
+
+<!-- ------------------------------------------------ -->
+<!-- ------ Footers  ------ -->
+<!-- ------------------------------------------------ -->
+
+        <footer>
+            <h2><a href="submit.html">About Us</a></h2>
+            <p>&copy; <span id="year"></span> Moreau</p>
+
+                <script>
+                document.getElementById("year").textContent = new Date().getFullYear();
+                </script>
+            <h2>Keep in Touch!</h2>
+            <div class="foot">
+            <p>Email Us At: hello@trailheadmissoula.org</p>
+            <a href="https://www.facebook.com/groups/missoulaevents/"><img src="images/fb-icon.png"></a>
+            <a href="https://www.instagram.com/explore/locations/487501624615813/missoula-mt/"><img src="images/insta-icon.png"></a>
+            <a href="https://www.tiktok.com/tag/missoula"><img src="images/tt-icon.png"></a>
+            <a href="https://bsky.social/"><img src="images/bsky-icon.png"></a>
+            </div>
+        </footer>

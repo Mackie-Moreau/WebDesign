@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A nonprofit organization dedicated to connecting Missoula's locals.">
         <Title>TRAILHEAD</Title>
         <link rel="stylesheet" href="styles/styles.css">
 <!------------------------FONTS--------------------->
@@ -28,7 +30,7 @@
 <!------------------------body goes here--------------------->
 
 
-
+<main>
     <div class="homepage-grid">
         <div class="bigBG">
             <h3>Find Missoula.</h3>
@@ -64,9 +66,16 @@
         <img src="images/river-float.jpg" alt="A wide shot of the Clark Fork River">
     </div>
     </div>
+</main>
+
 
     <footer>
         <h2><a href="submit.html">About Us</a></h2>
+        <p>&copy; <span id="year"></span> Moreau</p>
+
+            <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
         <h2>Keep in Touch!</h2>
         <div class="foot">
         <p>Email Us At: hello@trailheadmissoula.org</p>

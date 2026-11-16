@@ -25,6 +25,15 @@
     
     */
 
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  /* Styles for tablets */
+}
+
+@media (max-width: 600px) {
+  /* Styles for mobile screens */
+}
+
 header{
     border-radius: 5px 25px;
     background-color: #a2b448;
@@ -58,12 +67,9 @@ footer{
     margin-top: 10px;
 
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
     flex-wrap: nowrap;
     align-items: center; 
-
-    gap: 40;
+    justify-content: center;
 
 }
 
@@ -109,6 +115,11 @@ a{
     font-style: normal;
     color: #372f24;
     padding: 10px;
+}
+
+a:focus, button:focus, input:focus {
+  outline: 2px solid #df802d;
+  outline-offset: 2px;
 }
 
 a:hover {
