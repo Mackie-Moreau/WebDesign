@@ -40,6 +40,13 @@ header{
 }
 
 body{
+
+    background-image: url(.../images/webpage_background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
     background-color: #52707b;
     margin-left: 50px;
     margin-right: 50px;
@@ -51,11 +58,12 @@ footer{
     margin-top: 10px;
 
     display: flex;
+    justify-content: flex-end;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center; 
-    justify-content: space-between;
-    gap: 10px;
-    padding: 20px;
+
+    gap: 40;
 
 }
 
@@ -111,10 +119,29 @@ a:hover {
 
 /*homepage stuff*/
 
-.foot img{
-padding-left: 10px;
-padding-right: 10px;
+.foot h2{
+    text-align: right;
+}
+
+.head img{
+padding-left: 5px;
+padding-right: 5px;
+width: 10%;
+height: auto;
     
+}
+
+.foot img{
+padding-left: 5px;
+padding-right: 5px;
+width: 3%;
+height: auto;
+    
+}
+
+.foot a:hover{
+  background-color: #eff4be;
+  border-radius: 30px;
 }
 
 .big-cont {
