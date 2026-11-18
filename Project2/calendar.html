@@ -32,26 +32,55 @@
 
     <main>
 
+        <!------------------------Pulled this from w3's website and I can't get it to do what I need it to do and I am so so tired I can
+        t work on this anymore I am so done. I hope this is fine, I've been trying for 2 hours now. --------------------->
+        <script>
+            function myFunction() {
+            // Declare variables
+            var input, filter, ul, li, a, i, div;
+            input = document.getElementById("mySearch");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myMenu");
+            li = ul.getElementsByTagName("li");
+            div = div.getElementById("myMenu");
+
+            // Loop through all list items, and hide those who don't match the search query
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+                } else {
+                li[i].style.display = "none";
+                }
+            }
+            }
+        </script>
+
         <div class ="searchbar">
-            SEARCH BAR PLACEHOLDER
+             <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+             <button type="submit"><i class="fa fa-search"></i></button>
         </div>
 
         <div class="gallery">
-            <div class="item">
+            <div class="item" id="myMenu"> 
                 <img src="images/river-float.jpg" alt="A wide shot of the Clark Fork River">
                 <h3>Halloween Mixer - OCT 30th 2026</h3>
                 <p>
                     A Halloween Mixer put on by the AEI council at the university of Montana. 
                     Join in for fun halloween games, candy, and a costume contest. 
+                    
                 </p>
+                <label>18+ ⟡ Student Life ⟡ Halloween</label>
             </div>
             
-            <div class="item">
+            <div class="item" id="myMenu">
                 <img src="images/river-float.jpg" alt="A wide shot of the Clark Fork River">
                 <h3>Polar Plunge - NOV 3rd 2026</h3>
                 <p>
                   A polar plunge on the clark fork. yup
                 </p>
+
+                <label>Everyone ⟡ Outdoor ⟡ River</label>
 
             </div>
             <div class="item">Three</div>
@@ -65,6 +94,7 @@
 
     <footer>
         <h2><a href="submit.html">About Us</a></h2>
+     
         <h2>Keep in Touch!</h2>
         <div class="foot">
         <p>Email Us At: hello@trailheadmissoula.org</p>
@@ -73,6 +103,11 @@
         <a href="https://www.tiktok.com/tag/missoula"><img src="images/tt-icon.png"></a>
         <a href="https://bsky.social/"><img src="images/bsky-icon.png"></a>
         </div>
+           <p>&copy; <span id="year"></span> Moreau</p>
+
+            <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
     </footer>
 
 </body>
